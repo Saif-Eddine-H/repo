@@ -1,11 +1,136 @@
-<!DOCTYPE html>
+!<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Saif-Eddine</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Saif-Eddine</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="home">
+    <div>
+      <h1>Welcome</h1><br>
+      <h2>My name is Saif-<span>Eddine</span></h2><br>
+      <h2>I am a <span id="m-words"></span></h2>
+    <br><br><br><br><br>
+    <div class="buttons-con">
+      <button id="contact">Contact us</button>
+      <button id="viewProjects">View Projects</button>
+    </div>
+    </div>
     
+    <img src="images/Developer activity-amico.png" alt="">
+  </section>
+  <section id="Skills-and-Expertise">
+    <h1>Skills and <span>Expertise</span></h1>
+    <main>
+      <div class="container">
+        <h1>Frontend Development</h1>
+        <p>Proficient in HTML, CSS, and 
+           JavaScript for creating 
+           engaging user interfaces
+        </p>
+      </div>
+      <div class="container">
+        <h1>Backend Development</h1>
+        <p>Skilled in server-side
+          programming languages like
+          Node.js, Python, and Ruby.
+        </p>
+      </div>
+      <div class="container">
+        <h1>Database Management</h1>
+        <p>Experienced in working with
+          SQL and NoSQL databases to
+          handle data efficiently.
+        </p>
+      </div>
+    </main>
+  </section>
+  
+  <section id="Projects">
+    <h1>My <span>Projects</span></h1>
+    <main>
+      <div class="container">
+        <h1>E-commerce Store</h1>
+        <p>Designed and developed a
+           responsive and scalable
+           online store for a retail client.
+        </p>
+        <button>view</button>
+      </div>
+      <div class="container">
+        <h1>Travel Blog Platform</h1>
+        <p>Created a user-friendly blog
+          platform with interactive
+          features for travel enthusiasts
+        </p>
+        <button>view</button>
+      </div>
+      <div class="container">
+        <h1>Portfolio Website</h1>
+        <p>Built a personal portfolio 
+        website to showcase skills, 
+        projects, and contact information.
+        </p>
+        <button>view</button>
+      </div>
+    </main>
+  </section>
+  <section class="contact" id="contact">
+    <h1>Contact <span>Us</span></h1>
+    <form action="get">
+        <input type="text" name="fname" id="fname"
+        placeholder="First name...">
+        <input type="text" name="lname" id="lname" 
+        placeholder="last name..."><br>
+      <input type="email" name="email" id="email"
+      placeholder="Email..."><br>
+      <input type="number" name="phone" id="phone" placeholder="Phone..."><br>
+      <textarea name="message" id="msg" cols="30" rows="10" placeholder="message..."></textarea><br>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+  <footer>
+    <div class="txt">
+      <p>&copy; 2022 portfolio Made by : <i id="name">Saif-eddine</i></p>
+    </div>
+    <div class="social">
+      <a href="">f</a>
+      <a href="">i</a>
+      <a href="">w</a>
+      <a href="">t</a>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+  <script src="libs/typed.umd.js"></script>
+  <script>
+    const type = new Typed('#m-words',{
+      strings: ['Web Developer', 'Student', 'Writer'],
+      typedSpeed: 600,
+      backSpeed: 100,
+      backDelay: 3000,
+      cursorChar: '_',
+      loop: true
+    });
+  </script>
+</body>
+</html>
 </body>
 </html>
